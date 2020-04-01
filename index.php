@@ -22,8 +22,8 @@
       </a>
     </header>
     <div class="container">
-      <h1>
-        <?php echo 'SNAD - Integrador de herramientas en la nube'; ?>
+      <h1 style="margin-left: 1em;">
+        <?php echo 'Invreate Space es un integrador de herramientas en la nube'; ?>
         <span><?php echo "A la medida.";?></span>
       </h1>
       <div class="main clearfix">
