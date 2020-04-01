@@ -1,5 +1,5 @@
 <?php
-// created: 2020-03-26 19:25:17
+// created: 2020-04-01 05:05:00
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -213,13 +213,13 @@ $sugar_config = array (
   'default_currency_name' => 'US Dollars',
   'default_currency_significant_digits' => 2,
   'default_currency_symbol' => '$',
-  'default_date_format' => 'm/d/Y',
+  'default_date_format' => 'Y-m-d',
   'default_decimal_seperator' => '.',
   'default_email_charset' => 'UTF-8',
   'default_email_client' => 'sugar',
   'default_email_editor' => 'html',
   'default_export_charset' => 'UTF-8',
-  'default_language' => 'en_us',
+  'default_language' => 'es_ES',
   'default_locale_name_format' => 's f l',
   'default_max_tabs' => 10,
   'default_module' => 'Home',
@@ -238,7 +238,7 @@ $sugar_config = array (
   'default_swap_last_viewed' => false,
   'default_swap_shortcuts' => false,
   'default_theme' => 'SuiteP',
-  'default_time_format' => 'h:ia',
+  'default_time_format' => 'H:i',
   'default_user_is_admin' => false,
   'default_user_name' => '',
   'demoData' => 'no',
@@ -315,7 +315,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 1,
+  'js_lang_version' => 5,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -472,4 +472,5 @@ $sugar_config = array (
   'use_real_names' => true,
   'vcal_time' => '2',
   'verify_client_ip' => true,
+  'disabled_languages' => '',
 );
