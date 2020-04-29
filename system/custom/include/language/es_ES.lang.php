@@ -51,3 +51,10 @@ $GLOBALS['app_list_strings']['irw_myreviews_status']=array (
   'process' => 'Proceso',
   'closed' => 'Cerrado',
 );
+
+$GLOBALS['app_list_strings']['irw_processes_category_dom']=array (
+  'empty' => ' ',
+  'Strategic' => 'Procesos Estratégicos',
+  'Missionary' => 'Procesos Misionales',
+  'Support' => 'Procesos Apoyo',
+);

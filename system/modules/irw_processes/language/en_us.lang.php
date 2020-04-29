@@ -120,4 +120,10 @@ $mod_strings = array (
   'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_IRW_PROCESSES_SUBPANEL_TITLE' => 'Procesos',
+  'LBL_PROCESS_CODE' => 'Code:',
+  'LBL_PROCESS_TYPE' => 'Type:',
+  'LBL_OBJECTIVE' => 'Objective:',
+  'LBL_SCOPE' => 'Scope:',
+  'LBL_INPUT' => 'Input',
+  'LBL_OUTPUT' => 'Output:',
 );
