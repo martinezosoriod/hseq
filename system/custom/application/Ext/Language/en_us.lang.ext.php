@@ -120,4 +120,10 @@ $app_list_strings['irw_indicators_status_dom']['Expired'] = 'Expired';
 $app_list_strings['irw_indicators_status_dom']['Under Review'] = 'Under Review';
 $app_list_strings['irw_indicators_status_dom']['Pending'] = 'Pending';
 
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['irw_myreviews'] = 'ACPM';
+$app_list_strings['parent_type_display']['irw_myreviews'] = 'ACPM';
+$app_list_strings['record_type_display_notes']['irw_myreviews'] = 'ACPM';
+
 ?>
