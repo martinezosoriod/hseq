@@ -166,4 +166,6 @@ $mod_strings = array(
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
+    //invfiles
+    'LBL_PROCESS' => 'Process:',
 );
