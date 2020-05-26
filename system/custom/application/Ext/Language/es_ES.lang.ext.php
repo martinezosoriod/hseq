@@ -2,12 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
-//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
-$app_list_strings['record_type_display']['irw_myreviews'] = 'ACPM';
-$app_list_strings['parent_type_display']['irw_myreviews'] = 'ACPM';
-$app_list_strings['record_type_display_notes']['irw_myreviews'] = 'ACPM';
-
-
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -125,5 +119,11 @@ $app_list_strings['irw_indicators_status_dom']['FAQ'] = 'FAQ';
 $app_list_strings['irw_indicators_status_dom']['Expired'] = 'Caducado';
 $app_list_strings['irw_indicators_status_dom']['Under Review'] = 'En Revisión';
 $app_list_strings['irw_indicators_status_dom']['Pending'] = 'Pendiente';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$app_list_strings['record_type_display']['irw_myreviews'] = 'ACPM';
+$app_list_strings['parent_type_display']['irw_myreviews'] = 'ACPM';
+$app_list_strings['record_type_display_notes']['irw_myreviews'] = 'ACPM';
 
 ?>
