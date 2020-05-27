@@ -1,3 +1,6 @@
+<?php 
+	require 'config.php';
+?>
 <!doctype html>
 <html lang="es" class="no-js">
 	<head>
