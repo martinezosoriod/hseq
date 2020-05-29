@@ -21,7 +21,7 @@
                 <span class="icon">
                     <i aria-hidden="true" class="icon-team"></i>
                 </span>
-                <span><?php echo 'Aprendizaje'; ?></span>
+                <span><?php echo 'Moodle'; ?></span>
             </a>
         </li>
         <li>
