@@ -12,4 +12,3 @@ $sugar_config['default_module_favicon'] = true;
 $sugar_config['dashlet_auto_refresh_min'] = '30';
 $sugar_config['stack_trace_errors'] = false;
 $sugar_config['search']['defaultEngine'] = 'BasicAndAodEngine';
-/***CONFIGURATOR***/
