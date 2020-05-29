@@ -1,22 +1,29 @@
 <?php 
+//	include 'config.php';
 	require 'config.php';
+
+
+	$consult = "SELECT * FROM home";
+	$query = mysqli_query($conn,$consult);
 ?>
+
 <!doctype html>
 <html lang="es" class="no-js">
 	<head>
-		<?php include 'template.php'?>
-		<?php include 'stylesheet.php'?>
-		<?php include 'template_script.php'?>
+		<?php include 'view/template.php'?>
+		<?php include 'view/stylesheet.php'?>
+		<?php include 'view/template_script.php'?>
 	</head>
 	<body>
-		<?php include 'header.php' ?>
+		<?php include 'view/header.php' ?>
 		<div class="container">
-			<?php include 'text.php'?>
+			<?php include 'view/text.php'?>
 			<div class="main clearfix">
-				<?php include 'menu.php'?>
+				<?php include 'view/menu.php'?>
 			</div>
 		</div>
-		<?php include 'navscript.php' ?>
-		<?php include 'footer.php' ?>
+		<?php include 'view/navscript.php' ?>
+		<?php include 'view/footer.php' ?>
+		<?php echo $query;?>
 	</body>
 </html>
