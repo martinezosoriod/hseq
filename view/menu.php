@@ -17,11 +17,11 @@
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="http://hseq.invreate.com/moodle">
                 <span class="icon">
                     <i aria-hidden="true" class="icon-team"></i>
                 </span>
-                <span><?php echo 'Vinculado'; ?></span>
+                <span><?php echo 'Aprendizaje'; ?></span>
             </a>
         </li>
         <li>
