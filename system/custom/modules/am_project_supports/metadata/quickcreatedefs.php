@@ -1,16 +1,19 @@
 <?php
 $module_name = 'am_project_supports';
-$_object_name = 'am_project_supports';
 $viewdefs [$module_name] = 
 array (
-  'DetailView' => 
+  'QuickCreate' => 
   array (
     'templateMeta' => 
     array (
-      'maxColumns' => '2',
       'form' => 
       array (
+        'enctype' => 'multipart/form-data',
+        'hidden' => 
+        array (
+        ),
       ),
+      'maxColumns' => '2',
       'widths' => 
       array (
         0 => 
@@ -24,6 +27,9 @@ array (
           'field' => '30',
         ),
       ),
+      'javascript' => '{sugar_getscript file="include/javascript/popup_parent_helper.js"}
+	{sugar_getscript file="cache/include/javascript/sugar_grp_jsolait.js"}
+	{sugar_getscript file="modules/Documents/documents.js"}',
       'useTabs' => false,
       'tabDefs' => 
       array (
@@ -33,7 +39,6 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -41,35 +46,36 @@ array (
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'document_name',
-            'label' => 'LBL_DOC_NAME',
-          ),
+          0 => 'document_name',
         ),
         1 => 
         array (
           0 => 
           array (
             'name' => 'uploadfile',
+            'customCode' => '{if $fields.id.value!=""}
+            				{assign var="type" value="hidden"}
+            		 		{else}
+            		 		{assign var="type" value="file"}
+            		  		{/if}
+            		  		<input name="uploadfile" type = {$type} size="30" maxlength="" onchange="setvalue(this);" value="{$fields.filename.value}">{$fields.filename.value}',
             'displayParams' => 
             array (
-              'link' => 'uploadfile',
-              'id' => 'id',
+              'required' => true,
             ),
           ),
-          1 => 
-          array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO',
-          ),
+          1 => 'assigned_user_name',
         ),
         2 => 
         array (
           0 => 
           array (
             'name' => 'description',
-            'label' => 'LBL_DOC_DESCRIPTION',
+            'displayParams' => 
+            array (
+              'rows' => 10,
+              'cols' => 120,
+            ),
           ),
         ),
       ),

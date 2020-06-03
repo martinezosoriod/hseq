@@ -18,7 +18,7 @@ system/modules/AOD_Index/Index/*
 #install/status.json
 # Configuration files should be ignored.
 #system/config.php
-#system/config_override.php
+system/config_override.php
 #system/config_si.php
 # Connector configuration should also be ignored.
 #system/custom/modules/Connectors/connectors/sources/ext/*/*/config.php
